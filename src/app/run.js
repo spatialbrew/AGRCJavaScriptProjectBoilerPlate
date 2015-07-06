@@ -48,7 +48,10 @@
             }
         ]
     };
-    require(config, ['dojo/parser', 'jquery', 'dojo/domReady!'], function (parser) {
+   /* require(config, ['dojo/parser', 'jquery', 'bootstrap', 'dojo/domReady!'], function (parser) {
         parser.parse();
+    });*/
+    require(config, ['app/Controller', 'jquery', 'bootstrap', 'dojo/domReady!'], function(Controller) {
+        new Controller(config);
     });
 })();

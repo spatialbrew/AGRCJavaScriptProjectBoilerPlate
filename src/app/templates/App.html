@@ -1,34 +1,44 @@
-<div>
-    <div class='title-container'>
-        <h1>
-            <span class='title'>Atlas Utah</span>
-            <a data-dojo-attach-point='version' class='version' href='ChangeLog.html'></a>
-        </h1>
-        <img src="app/resources/agrc_logo.jpg" alt="agrc logo">
-    </div>
-    <div data-dojo-attach-point='sideBar' 
-        class='side-bar-container container-with-border'>
-        <div class="side-bar-padder"> <!-- required for side bar toggle widget -->
-            Data and services provided by <a href="http://gis.utah.gov">Utah AGRC</a>
-            <div data-dojo-attach-point="printDiv"></div>
-            <div data-dojo-attach-point='popupBlockerBlurb' 
-                class='alert alert-info'>
-                You may need to disable pop-up blockers to open the printout.
-            </div>
-            
-            <h4>Find Address</h4>
-            <div data-dojo-attach-point='geocodeNode'></div>
-            
-            <h4>Find GNIS Place Name</h4>
-            <div data-dojo-attach-point='gnisNode'></div>
-            
-            <h4>Find City</h4>
-            <div data-dojo-attach-point='cityNode'></div>
-        </div>
-    </div>
-    <div data-dojo-attach-point='centerContainer'
-        class='center-container container-with-border'>
-        <div data-dojo-attach-point='sidebarToggle'></div>
-        <div data-dojo-attach-point='mapDiv'></div>
-    </div>
+
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <div id="guageContainer"></div>
+
+    <div data-dojo-attach-point='map' id="map"></div>   
 </div>
