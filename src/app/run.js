@@ -10,14 +10,12 @@
             window.dojoConfig.isJasmineTestRunner
             ) ? '/src' : './',
         packages: [
-            'agrc',
             'app',
             'dgrid',
             'dijit',
             'dojo',
             'dojox',
             'esri',
-            'ijit',
             'proj4',
             'put-selector',
             'xstyle',

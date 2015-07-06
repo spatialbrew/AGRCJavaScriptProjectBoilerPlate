@@ -15,7 +15,7 @@ var profile = {
                 'dojo/i18n',
                 'dojo/domReady',
                 'app/run',
-                'app/App',
+                'app/Controller',
                 'dojox/gfx/path',
                 'dojox/gfx/svg',
                 'dojox/gfx/shape'
@@ -58,6 +58,6 @@ var profile = {
         'xstyle/css': 'xstyle/build/amd-css'
     },
     userConfig: {
-        packages: ['app', 'dijit', 'dojox', 'agrc', 'ijit', 'esri']
+        packages: ['app', 'dijit', 'dojox', 'esri']
     }
 };

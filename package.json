@@ -1,10 +1,10 @@
 {
-  "name": "Atlas",
-  "version": "2.5.0",
-  "homepage": "https://github.com/agrc/AGRCJavaScriptProjectBoilerPlate",
+  "name": "",
+  "version": "0.0.0",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agrc/AGRCJavaScriptProjectBoilerPlate.git"
+    "url": ""
   },
   "devDependencies": {
     "dojo": "^1.10",

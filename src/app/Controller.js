@@ -6,7 +6,7 @@ define([
 
     'esri/map',
 
-    'put-selector/put',
+    'put-selector/put'
 
 ], function (
     array,
