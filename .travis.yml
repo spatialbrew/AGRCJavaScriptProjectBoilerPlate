@@ -24,7 +24,6 @@ cache:
         - src/dijit
         - src/dojo
         - src/dojox
-        - src/ijit
         - src/jasmine-favicon-reporter
         - src/stubmodule
         - src/util

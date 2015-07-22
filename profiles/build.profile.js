@@ -24,9 +24,6 @@ var profile = {
             includeLocales: ['en-us'],
             customBase: true,
             boot: true
-        },
-        'ijit/widgets/authentication/UserAdmin': {
-            exclude: ['dojo/dojo']
         }
     },
     packages: [{
