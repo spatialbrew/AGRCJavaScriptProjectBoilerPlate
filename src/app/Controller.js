@@ -5,7 +5,7 @@ define([
     'dojo/on',
 
     'esri/map',
-
+ 
     'put-selector/put'
 
 ], function (
@@ -33,7 +33,7 @@ define([
             } || {});
 
         this.inherited(arguments);
-       
+
         }
     });
 });
